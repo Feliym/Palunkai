@@ -1,41 +1,49 @@
 {
-  "techTree": {
-    "Освоение": {
-      "Библиотеки": {
-        "description": "Отправьте людей в библиотеки для открытия знаний.",
-        "cost": 10,
-        "bonuses": {
-          "knowledge": 1
-        }
+  "technologies": [
+    {
+      "name": "Library",
+      "description": "Отправьте людей в библиотеки для открытия знаний.",
+      "cost": 10,
+      "bonuses": {
+        "knowledge": 1
       },
-      "Военные технологии": {
-        "description": "Изучение новых военных технологий для повышения боевой мощи.",
-        "cost": 10,
-        "bonuses": {
-          "unitDamage": 0.01
-        }
+      "prerequisites": []
+    },
+    {
+      "name": "Military Technologies",
+      "description": "Изучение новых военных технологий для повышения боевой мощи.",
+      "cost": 10,
+      "bonuses": {
+        "unitDamage": 0.01
       },
-      "Ресурсы": {
-        "description": "Улучшение методов добычи ресурсов.",
-        "cost": 10,
-        "bonuses": {
-          "resourceIncrease": 1
-        }
+      "prerequisites": []
+    },
+    {
+      "name": "Resources",
+      "description": "Улучшение методов добычи ресурсов.",
+      "cost": 10,
+      "bonuses": {
+        "resourceIncrease": 1
       },
-      "Наука": {
-        "description": "Расширение научных знаний для увеличения богатства.",
-        "cost": 10,
-        "bonuses": {
-          "goldIncrease": 500
-        }
+      "prerequisites": []
+    },
+    {
+      "name": "Science",
+      "description": "Расширение научных знаний для увеличения богатства.",
+      "cost": 10,
+      "bonuses": {
+        "goldIncrease": 500
       },
-      "Культура и жизнь": {
-        "description": "Изучение культурных аспектов для повышения счастья населения.",
-        "cost": 10,
-        "bonuses": {
-          "happinessIncrease": 5
-        }
-      }
+      "prerequisites": []
+    },
+    {
+      "name": "Culture and Life",
+      "description": "Изучение культурных аспектов для повышения счастья населения.",
+      "cost": 10,
+      "bonuses": {
+        "happinessIncrease": 5
+      },
+      "prerequisites": []
     }
-  }
+  ]
 }
